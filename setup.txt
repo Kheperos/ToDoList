@@ -1,0 +1,3 @@
+install php5-curl
+install phantomjs
+sudo phantomjs --webdriver 4444
