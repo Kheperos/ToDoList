@@ -7,6 +7,9 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-            url: http://programming/ToDo/
+        - WebDriver
         - \Helper\Acceptance
+    config:
+        WebDriver:
+            url: 'http://localhost'
+            browser: firefox
